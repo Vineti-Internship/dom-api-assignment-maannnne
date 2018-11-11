@@ -25,7 +25,6 @@ window.onload = () => {
    let bigCircle = document.createElement("div");
    container.appendChild(bigCircle);
    bigCircle.setAttribute('style','width: 400px; height: 400px; border: 2px solid #4d564d; border-radius: 50%; position: fixed;');
-   let big = bigCircle.getBoundingClientRect();
    let bigCircleRadius = bigCircle.style.width.split('px')[0]/2; //2 ժամ ա քեզ գտնելու ձևն եմ ման գալիս, անամոթ -_-
    let big = bigCircle.getBoundingClientRect();
    
