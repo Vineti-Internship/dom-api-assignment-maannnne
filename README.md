@@ -24,7 +24,7 @@ __There are two possible grades for this assignment: P and F (Pass, Fail)__
 ## Grade: P
 
 ## Feedback
-- If a variable is not going to be reassigned preffer to use `cosnt` instead of `let`
+- If a variable is not going to be reassigned preffer to use `const` instead of `let`
 - Do not use math operations for string opperations(i.e. `big.right - smallBallRadius + 'px';` should have been written as `` `${big.right - smallBallRadius}px` ``)
 - It's preffered to not use space between HTML tag attribute equal(=) signs
 - Cleanup unused code blocks or `console.log` as a wrap-up
